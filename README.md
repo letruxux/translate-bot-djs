@@ -1,15 +1,26 @@
-# translate-bot-djs
+# Discord.js translator bot
 
-To install dependencies:
+> literally the simplest bot ever
 
+## Environment variables
+
+Fill out these env vars (using `export`/`set` or via a `.env` file):
+```
+DISCORD_CLIENT_SECRET=""
+DISCORD_CLIENT_ID=""
+```
+
+## Install packages
 ```bash
 bun install
 ```
 
-To run:
-
+## Register commands
 ```bash
-bun run index.ts
+bun run ./register.ts
 ```
 
-This project was created using `bun init` in bun v1.1.34. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Run the bot
+```bash
+bun run .
+```
